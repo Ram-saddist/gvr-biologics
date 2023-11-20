@@ -1,0 +1,108 @@
+.heading1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2aa3ff;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+nav{
+  position: sticky;
+  top:0%;
+  left: 0%
+}
+
+.link a,
+.container a {
+  text-decoration: none;
+}
+
+
+.folder-container {
+  width: 290px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.folder-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.folder-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: #4285f4;
+  /* Google Drive blue */
+}
+
+.folder-name {
+  display: inline-block;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  font-weight: bold;
+}
+
+.file-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.underline {
+  border-bottom: 5px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.container-fluid a {
+  text-decoration: none;
+}
+
+.paraline {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.manual {
+  color: #2aa3ff;
+}
+
+.common {
+  color: #2aa3ff;
+}
+
+.manual:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.redb {
+  color: rgb(255, 0, 76);
+  font-size: 20px;
+}
+
+
+@media (max-width:430px) {
+  .heading1 {
+    font-size: 1.3rem;
+  }
+}
